@@ -15,11 +15,9 @@
  */
 package com.example.androiddevchallenge.ui
 
-import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.compose.setContent
-import androidx.activity.result.contract.ActivityResultContracts
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.foundation.*
@@ -40,7 +38,6 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.androiddevchallenge.GlobalApp
-import com.example.androiddevchallenge.R
 import com.example.androiddevchallenge.model.KittenInfo
 import com.example.androiddevchallenge.ui.theme.MyTheme
 
